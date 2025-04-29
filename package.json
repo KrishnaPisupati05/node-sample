@@ -4,13 +4,16 @@
   "description": "A simple Node.js app for CI/CD example",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",  
-    "test": "echo \"No tests specified\" && exit 0"  
+    "start": "node index.js",
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "dependencies": {
-    "express": "^4.17.1" 
+    "express": "^4.17.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0"
+  },
   "author": "",
   "license": "ISC"
 }
