@@ -27,7 +27,7 @@ jobs:
              run: npm run build
 
            - name: Deploy to Azure App Service
-             uses: azure@webapp-deploy@v3
+             uses: azure/webapps-deploy@v3
              with:
               app-name: 'my-webapp-000'
               slot-name: 'staging'
